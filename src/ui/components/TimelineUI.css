@@ -1,0 +1,13 @@
+.timeline-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  overflow: hidden;
+}
+
+.timeline-ruler {
+  flex-shrink: 0;
+}
