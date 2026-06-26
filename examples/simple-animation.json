@@ -1,0 +1,35 @@
+{
+  "duration": 10,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "tracks": [
+    {
+      "id": "track-1",
+      "type": "shape",
+      "start": 0,
+      "duration": 5,
+      "layer": 0,
+      "params": {
+        "p4_positionX": 960,
+        "p5_positionY": 540,
+        "p7_scaleX": 100,
+        "p8_scaleY": 100,
+        "p10_rotation": 0,
+        "p13_opacity": 100,
+        "p36_couleur_primaire": "#FF0033"
+      },
+      "keyframes": {
+        "p4_positionX": [
+          { "time": 0, "value": 500, "easing": "linear" },
+          { "time": 5, "value": 1400, "easing": "linear" }
+        ],
+        "p10_rotation": [
+          { "time": 0, "value": 0, "easing": "linear" },
+          { "time": 5, "value": 360, "easing": "linear" }
+        ]
+      },
+      "expressions": {}
+    }
+  ]
+}

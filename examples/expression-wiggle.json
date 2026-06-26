@@ -1,0 +1,31 @@
+{
+  "duration": 8,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "tracks": [
+    {
+      "id": "track-expr-1",
+      "type": "shape",
+      "start": 0,
+      "duration": 8,
+      "layer": 0,
+      "params": {
+        "p4_positionX": 960,
+        "p5_positionY": 540,
+        "p7_scaleX": 100,
+        "p8_scaleY": 100
+      },
+      "keyframes": {
+        "p10_rotation": [
+          { "time": 0, "value": 0, "easing": "linear" },
+          { "time": 8, "value": 360, "easing": "linear" }
+        ]
+      },
+      "expressions": {
+        "p4_positionX": "960 + wiggle(2, 50)",
+        "p5_positionY": "540 + wiggle(3, 80)"
+      }
+    }
+  ]
+}
