@@ -1,0 +1,31 @@
+{
+  "duration": 5,
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "tracks": [
+    {
+      "id": "track-text-1",
+      "type": "text",
+      "start": 0,
+      "duration": 5,
+      "layer": 0,
+      "params": {
+        "p21_texte": "MOTION-3D",
+        "p23_taille": 280,
+        "p36_couleur_primaire": "#FF0033",
+        "p4_positionX": 960,
+        "p5_positionY": 540
+      },
+      "keyframes": {
+        "p13_opacity": [
+          { "time": 0, "value": 0, "easing": "linear" },
+          { "time": 1, "value": 100, "easing": "bezier", "oy": 50 },
+          { "time": 4, "value": 100, "easing": "linear" },
+          { "time": 5, "value": 0, "easing": "bezier", "iy": -50 }
+        ]
+      },
+      "expressions": {}
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "motion-3d-studio",
+  "version": "0.1.0",
+  "main": "dist/main.js",
+  "homepage": "./",
+  "author": "Motion-3D Team",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "electron": "electron dist/main.js",
+    "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:5173 && electron .\"",
+    "electron-build": "npm run build && tsc --project electron/tsconfig.json"
+  },
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-is-dev": "^2.0.0",
+    "concurrently": "^8.0.0",
+    "wait-on": "^7.0.0"
+  }
+}
